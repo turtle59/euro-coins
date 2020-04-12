@@ -88,6 +88,7 @@ A ce stade, la figure doit ressembler à ceci.
 ![Illustration](geogebra-etape_01.png "Illustration")
 
 ## ... _Egayons le schéma_
+Cette étape n'est pas indispensable mais maintenant que les pièces sont créées, nous allons les nommer et les colorer pour mieux les identifier.
 
 | # | Action | Description |
 | ---- | ---- | ---- |
@@ -103,7 +104,57 @@ A ce stade, la figure doit ressembler à ceci.
 | 26 | _pièce de **20 centimes**_ | Cliquer sur le cercle `q`.<br>Onglet **Basique** : Saisir `20c` dans la zone **Légende:**<br>Onglet **Couleur** : Choisir la couleur 'rose'. |
 
 
-
-
-La figure ressemble désormais à ceci.
+Voila, la figure ressemble désormais à ceci.
 ![Illustration](geogebra-etape_02.png "Illustration")
+
+## 2. Alignement des pièces
+L'objectif dans cette étape est de mettre une distance identique entre chaque pièce présente sur le cercle _**Patron**_ `c`.
+
+Deux approches sont possibles : la méthode scientifique basée sur les équations de cercle, les intersections et les mesures d'angles (_tout un programme :-)_), ou tout simplement par approximation. Vu mon niveau de compétences dans le logiciel, je vais opter pour la seconde solution.
+
+Nous allons commencer par créer les points d'intersections entre les différentes pièces et le cercle _**Patron**_ `c` puis nous afficherons les distances entre ces différents points.
+
+
+### 2.1. Création des points d'intersections
+
+| # | Action | Description |
+| ---- | ---- | ---- |
+| 27 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**50 centimes**_ :<br> Création du premier point d'intersection `I` entre le cercle _**Patron**_ `c` et le cercle `e`. |
+| 28 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**1 euro**_ : <br>Création des points d'intersections `J`, `K` entre le cercle _**Patron**_ `c` et le cercle `f`. |
+| 29 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**1 centime**_ :<br>Création des points d'intersections `L`, `M` entre le cercle _**Patron**_ `c` et le cercle `f`. |
+| 30 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**2 centimes**_ :<br>Création des points d'intersections `N`, `O` entre le cercle _**Patron**_ `c` et le cercle `f`. |
+| 31 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**5 centimes**_ :<br>Création des points d'intersections `P`, `Q` entre le cercle _**Patron**_ `c` et le cercle `f`. |
+| 32 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**10 centimes**_ :<br>Création des points d'intersections `R`, `S` entre le cercle _**Patron**_ `c` et le cercle `f`. |
+| 33 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**20 centimes**_ :<br>Création des points d'intersections `T`, `U` entre le cercle _**Patron**_ `c` et le cercle `f`. |
+| 34 | ![Illustration](gpx/geogebra_Intersection.png "Illustration") | pièce de _**50 centimes**_ :<br>Création du second point d'intersection `V` entre le cercle _**Patron**_ `c` et le cercle `e`. |
+
+![Illustration](geogebra-etape_03.png "Illustration")
+
+### 2.2. Affichage des distances
+
+Désormais nous affichons la distance entre chaque pièce.
+
+| # | Action | Description |
+| ---- | ---- | ---- |
+| 35 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `I` et `J`. Distance affichée : `IJ = 7.44` |
+| 36 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `K` et `L`. Distance affichée : `KL = 7.28` |
+| 37 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `M` et `N`. Distance affichée : `MN = 5.75` |
+| 38 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `O` et `P`. Distance affichée : `OP = 8.69` |
+| 39 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `Q` et `R`. Distance affichée : `QR = 7.21` |
+| 40 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `S` et `T`. Distance affichée : `ST = 6.12` |
+| 41 | ![Illustration](gpx/geogebra_Distance-ou-Longueur.png "Illustration") | Sélectionner les points `U` et `V`. Distance affichée : `UV = 7.70` |
+
+Nous connaissons la longueur de chaque interstice entre les pièces. Additionnons les puis divisons le total par le nombre d'interstices (_7_) pour savoir la longueur à fixer pour chaque interstice.
+
+`total = 7.44 + 7.28 + 5.75 + 8.69 + 7.21 + 6.12 + 7.70`<br>
+`total = 50.19`<br>
+`distance = 50.19 / 7 = 7.17`
+
+La distance entre chaque pièce doit être fixée à `7.17`. Pour cela ne pas hésiter à zoomer pour obtenir plus de précision. Ensuite il suffit de cliquer sur le centre de chaque pièce en commançant par la pièce de _**1 euro**_ puis de le faire bouger. Réperter l'opération pour chacune des pièces.
+
+![Illustration](geogebra_tips.png "Illustration")
+
+Résultat final :
+![Illustration](geogebra-etape_04.png "Illustration")
+
+Voila, il ne reste plus qu'à exporter l'image et à l'imprimer.

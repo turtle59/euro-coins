@@ -6,11 +6,11 @@ _Note de l'auteur : je ne suis attaché à aucune marque, ni à aucun produit te
 
 | Illustration | Cachier des charges |
 | ---- | ---- |
-| ![Illustration](euro-coins_1200.jpg "Illustration")  | - La pièce de 2 euros est positionnée au centre<br>- Les pièces forment un cercle autour de la pièce de 2 euros.<br>- Les pièces sont équidistantes les unes des autres.  |
+| ![Illustration](euro-coins_600.jpg "Illustration")  | - La pièce de 2 euros est positionnée au centre<br>- Les pièces forment un cercle autour de la pièce de 2 euros.<br>- Les pièces sont équidistantes les unes des autres.  |
 
 
 1. [Expérience 1 : GeoGebra](geogebra/README.md) / niveau novice
-   - ressource : [geogebra-euro-coins.ggb](geogebra/geogebra_euro-coins.ggb)
+   - ressources : [geogebra-euro-coins.ggb](geogebra/geogebra_euro-coins.ggb),  [geogebra-euro-coins.png](geogebra/geogebra_euro-coins.png)
 2. [Expérience 2 : Fusion 360](fusion360/README.md) / niveau novice
    - ressource :
 
