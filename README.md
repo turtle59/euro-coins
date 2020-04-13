@@ -4,13 +4,17 @@ Ce projet, réalisé pendant le confinement *Covid-19*, se propose d'explorer pl
 
 _Note de l'auteur : je ne suis attaché à aucune marque, ni à aucun produit testé dans le cadre de ce projet._
 
-| Illustration | Cachier des charges |
-| ---- | ---- |
-| ![Illustration](euro-coins_600.jpg "Illustration")  | - La pièce de 2 euros est positionnée au centre<br>- Les pièces forment un cercle autour de la pièce de 2 euros.<br>- Les pièces sont équidistantes les unes des autres.  |
+**Cahier des charges :**
+- La pièce de 2 euros est positionnée au centre
+- Les pièces forment un cercle autour de la pièce de 2 euros.
+- Les pièces sont équidistantes les unes des autres.
 
+| illustration n°1 | illustration n°2 |
+| ---- | ---- |
+| ![Illustration](euro-coins_vierge_600.jpg "Illustration") | ![Illustration](euro-coins_600.jpg "Illustration")  |
 
 1. [Expérience 1 : GeoGebra](geogebra/README.md) / niveau novice
-   - ressources : [geogebra-euro-coins.ggb](geogebra/geogebra_euro-coins.ggb),  [geogebra-euro-coins.png](geogebra/geogebra_euro-coins.png)
+   - ressources : [geogebra-euro-coins.ggb](geogebra/geogebra-euro-coins.ggb),  [geogebra-euro-coins.png](geogebra/geogebra-euro-coins.png)
 2. [Expérience 2 : Fusion 360](fusion360/README.md) / niveau novice
    - ressource :
 
